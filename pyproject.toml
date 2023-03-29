@@ -10,6 +10,8 @@ packages = [{include = "gym_practice"}]
 python = ">=3.8,<3.12"
 gymnasium = {extras = ["classic-control"], version = "^0.27.1"}
 tensorflow = "^2.12.0"
+stable-baselines3 = {extras = ["extra"], version = "^1.7.0"}
+pyglet = "1.5.27"
 
 
 [build-system]
