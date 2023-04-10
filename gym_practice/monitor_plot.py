@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('./logs/0.monitor.csv', names=['r','l','t'])
+df = pd.read_csv('./logs/monitor.csv', names=['r','l','t'])
 df = df.drop(range(2)) # Delete line 1&2
 
 # Reward graph
